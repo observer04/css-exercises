@@ -2,20 +2,23 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
+*{
+  outline: 2px solid red;
+}
 
 .one {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 50px;
+  margin: 20px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 100px;
 }
 
 .three {
@@ -23,6 +26,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 50px;
+  margin-left: auto;
 }
